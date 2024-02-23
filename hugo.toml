@@ -1,0 +1,87 @@
+baseURL = 'https://mashru.dev/'
+languageCode = 'en-us'
+title = 'Dev Mashru'
+
+theme = 'gokarna'
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[params]
+	# URL for the avatar on homepage
+	avatarURL = "/images/Dev.jpg"
+
+	# Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+	avatarSize = "size-l"
+
+	# Description to display on homepage
+	description = ["Passionate cybersecurity enthusiast holding GCIH, GSEC and GFACT",
+					"Aspiring penetration tester",
+					"Tech nerd",
+					"I use arch btw ;)"]
+
+	# Accent color is displayed when you hover over <a> tags
+	accentColor = "#FF4D4D"
+
+	# Display "back to top" button on posts
+	ShowBackToTopButton = true
+
+	# Keywords relevant for SEO
+	metaKeywords = ["Dev", "Mashru", "Dev Mashru", "Cyber Security", "Cybersecurity", "Penetration Testing", "Pen Testing", "blog", "GIAC", "GPEN", "GCIH", "GSEC", "GIAC Advisory Board", "GFACT"]
+
+	# Footer text
+	footer = "Dev Mashru"
+
+	socialIcons = [
+		{name = "github", url = "https://github.com/DevMashru"},
+		{name = "twitter", url = "https://x.com/Dev_mashru"},
+		{name = "linkedin", url = "https://linkedin.com/in/devmashru/"},
+		{name = "credly", url = "https://www.credly.com/users/dev-mashru/badges"},
+	]
+
+[menu]
+
+	[[menu.main]]
+		# Unique identifier for a menu item
+		identifier = "about"
+
+		# Display name
+		name = "About"
+
+		# You can add extra information before the name (HTML format is supported), such as icons
+		pre = "<span data-feather='info'></span>"
+
+		# You can add extra information after the name (HTML format is supported), such as icons
+		post = ""
+
+		url = "/about/"
+
+		# Weights are used to determine the ordering
+		weight = 1
+
+	[[menu.main]]
+		identifier = "blogs"
+		pre = "<span data-feather='book'></span>"
+		name = "Blogs"
+		url = "/blogs/"
+		weight = 2
+
+	[[menu.main]]
+		identifier = "projects"
+		name = "Projects"
+		pre = "<span data-feather='code'></span>"
+		url = "/projects/"
+		weight = 3
+
+	[[menu.main]]
+		identifier = "tags"
+		name = "Tags"
+		pre = "<span data-feather='tag'></span>"
+		url = "/tags/"
+		weight = 4
+
+	[[menu.main]]
+		identifier = "rss"
+		pre = "<span data-feather='rss'></span>"
+		url = "/index.xml"
+		weight = 5
