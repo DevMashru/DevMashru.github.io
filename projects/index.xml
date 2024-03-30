@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Dev Mashru</title>
+    <link>https://mashru.dev/projects/</link>
+    <description>Recent content in Test on Dev Mashru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://mashru.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Lab</title>
+      <link>https://mashru.dev/projects/home_lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/projects/home_lab/</guid>
+      <description>A lab environment consisting of a home server, a couple of switches, a wifi access point, router and firewall.&#xA;Homeserver:&#xA;Proxmox is installed on the homeserver and runs the following services as of today:&#xA;NAS (Network Attached Storage) Jellyfin Opnsense PiHole Network:&#xA;The backbone of the network is 2.5G ready Opnsense - Router, firewall Different WiFi networks for trusted and untrusted devices Future plans: Setup a test AD environment, SIEM and many more things.</description>
+    </item>
+    <item>
+      <title>Passwordless Authentication</title>
+      <link>https://mashru.dev/projects/passwordless_authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/projects/passwordless_authentication/</guid>
+      <description>A switch from the traditional, most common form of authentication used today based on something-we-know, commonly passwords to someone-who-we-are was developed. The solution makes use of biometrics, mostly fingerprint to authenticate a user. It makes use of Android smartphones with fingerprint sensor.&#xA;An Android application using Kotlin and Android Studio was created to demonstrate the same.</description>
+    </item>
+    <item>
+      <title>Secure and Private Decentralised Instant Messenger</title>
+      <link>https://mashru.dev/projects/sspdim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/projects/sspdim/</guid>
+      <description>Capstone project done in the final year of engineering.&#xA;Modified Singal protocol to work with decentralized systems.&#xA;More details can be found in the paper published associated with the project.&#xA;Paper</description>
+    </item>
+  </channel>
+</rss>
