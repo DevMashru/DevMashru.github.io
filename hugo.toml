@@ -15,7 +15,7 @@ enableRobotsTXT = true
 	avatarSize = "size-l"
 
 	# Description to display on homepage
-	description = ["Passionate cybersecurity enthusiast holding GCIH, GSEC and GFACT",
+	description = ["Passionate cybersecurity enthusiast holding GPEN, GCIH, GSEC and GFACT",
 					"Aspiring penetration tester",
 					"Tech nerd",
 					"I use arch btw ;)"]
