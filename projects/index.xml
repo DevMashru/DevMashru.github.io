@@ -12,21 +12,21 @@
       <link>https://mashru.dev/projects/home_lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/projects/home_lab/</guid>
-      <description>A lab environment consisting of a home server, a couple of switches, a wifi access point, router and firewall.&#xA;Homeserver:&#xA;Proxmox is installed on the homeserver and runs the following services as of today:&#xA;NAS (Network Attached Storage) Jellyfin Opnsense PiHole Network:&#xA;The backbone of the network is 2.5G ready Opnsense - Router, firewall Different WiFi networks for trusted and untrusted devices Future plans: Setup a test AD environment, SIEM and many more things.</description>
+      <description>&lt;p&gt;A lab environment consisting of a home server, a couple of switches, a wifi access point, router and firewall.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Homeserver:&lt;/p&gt;&#xA;&lt;p&gt;Proxmox is installed on the homeserver and runs the following services as of today:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;NAS (Network Attached Storage)&lt;/li&gt;&#xA;&lt;li&gt;Jellyfin&lt;/li&gt;&#xA;&lt;li&gt;Opnsense&lt;/li&gt;&#xA;&lt;li&gt;PiHole&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Network:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The backbone of the network is 2.5G ready&lt;/li&gt;&#xA;&lt;li&gt;Opnsense - Router, firewall&lt;/li&gt;&#xA;&lt;li&gt;Different WiFi networks for trusted and untrusted devices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Future plans: Setup a test AD environment, SIEM and many more things. Don&amp;rsquo;t forget to follow me on &lt;a href=&#34;https://x.com/Dev_mashru&#34;&gt;X (formerly twitter)&lt;/a&gt; to stay updated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Passwordless Authentication</title>
       <link>https://mashru.dev/projects/passwordless_authentication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/projects/passwordless_authentication/</guid>
-      <description>A switch from the traditional, most common form of authentication used today based on something-we-know, commonly passwords to someone-who-we-are was developed. The solution makes use of biometrics, mostly fingerprint to authenticate a user. It makes use of Android smartphones with fingerprint sensor.&#xA;An Android application using Kotlin and Android Studio was created to demonstrate the same.</description>
+      <description>&lt;p&gt;A switch from the traditional, most common form of authentication used today based on something-we-know, commonly passwords to someone-who-we-are was developed. The solution makes use of biometrics, mostly fingerprint to authenticate a user. It makes use of Android smartphones with fingerprint sensor.&lt;/p&gt;&#xA;&lt;p&gt;An Android application using Kotlin and Android Studio was created to demonstrate the same.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Secure and Private Decentralised Instant Messenger</title>
       <link>https://mashru.dev/projects/sspdim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/projects/sspdim/</guid>
-      <description>Capstone project done in the final year of engineering.&#xA;Modified Singal protocol to work with decentralized systems.&#xA;More details can be found in the paper published associated with the project.&#xA;Paper</description>
+      <description>&lt;p&gt;Capstone project done in the final year of engineering.&lt;/p&gt;&#xA;&lt;p&gt;Modified Singal protocol to work with decentralized systems.&lt;/p&gt;&#xA;&lt;p&gt;More details can be found in the paper published associated with the project.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10092319&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

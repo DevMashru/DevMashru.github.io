@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>My 2024 Homelab Roundup</title>
+    <meta name="description" content="Hello World! Welcome to my first blog. I hope you had a great 2024, and I&rsquo;m looking forward to an even better 2025!
+This post will go over my homelab setup (the what&rsquo;s and the why&rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.
+Network
+Let&rsquo;s start with my network.
+Hardware
+The following hardware runs the network in my home:
+
+Zyxel MG-105 - 2.5G switch
+TP Link SG-1005P - 1G POE&#43; switch
+Zyxel NWA50AX WiFi AP
+ISP ONT
+
+Notice how there&rsquo;s no hardware for the router and firewall? That&rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.">
+    <meta name="keywords" content='Dev, Mashru, Dev Mashru, Cyber Security, Cybersecurity, Penetration Testing, Pen Testing, blog, GIAC, GPEN, GCIH, GSEC, GIAC Advisory Board, GFACT, homelab, homeserver, self-host, network'>
+
+    <meta property="og:url" content="https://mashru.dev/blogs/my-2024-homelab-roundup/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My 2024 Homelab Roundup">
+    <meta property="og:description" content="Hello World! Welcome to my first blog. I hope you had a great 2024, and I&rsquo;m looking forward to an even better 2025!
+This post will go over my homelab setup (the what&rsquo;s and the why&rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.
+Network
+Let&rsquo;s start with my network.
+Hardware
+The following hardware runs the network in my home:
+
+Zyxel MG-105 - 2.5G switch
+TP Link SG-1005P - 1G POE&#43; switch
+Zyxel NWA50AX WiFi AP
+ISP ONT
+
+Notice how there&rsquo;s no hardware for the router and firewall? That&rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.">
+    <meta property="og:image" content="https://mashru.dev/images/Dev.jpg">
+    <meta property="og:image:secure_url" content="https://mashru.dev/images/Dev.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My 2024 Homelab Roundup">
+    <meta name="twitter:description" content="Hello World! Welcome to my first blog. I hope you had a great 2024, and I&rsquo;m looking forward to an even better 2025!
+This post will go over my homelab setup (the what&rsquo;s and the why&rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.
+Network
+Let&rsquo;s start with my network.
+Hardware
+The following hardware runs the network in my home:
+
+Zyxel MG-105 - 2.5G switch
+TP Link SG-1005P - 1G POE&#43; switch
+Zyxel NWA50AX WiFi AP
+ISP ONT
+
+Notice how there&rsquo;s no hardware for the router and firewall? That&rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.">
+    <meta property="twitter:domain" content="https://mashru.dev/blogs/my-2024-homelab-roundup/">
+    <meta property="twitter:url" content="https://mashru.dev/blogs/my-2024-homelab-roundup/">
+    <meta name="twitter:image" content="https://mashru.dev/images/Dev.jpg">
+
+    
+    <link rel="canonical" href="https://mashru.dev/blogs/my-2024-homelab-roundup/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.3eb19cb61dde9e37b9522867f3e024aeb68e26ab8e03252e46e365abcb19acf7.js" integrity="sha256-PrGcth3enje5Uihn8&#43;AkrraOJquOAyUuRuNlq8sZrPc="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://mashru.dev/">
+                <img src='/images/Dev.jpg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://mashru.dev/">Dev Mashru</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://mashru.dev/about/" aria-label="about" ><span data-feather='info'></span> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://mashru.dev/blogs/" aria-label="blogs" ><span data-feather='book'></span> Blogs </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://mashru.dev/projects/" aria-label="projects" ><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://mashru.dev/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://mashru.dev/index.xml" aria-label="rss" ><span data-feather='rss'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://mashru.dev/about/" ><span data-feather='info'></span> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://mashru.dev/blogs/" ><span data-feather='book'></span> Blogs </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://mashru.dev/projects/" ><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://mashru.dev/tags/" ><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://mashru.dev/index.xml" ><span data-feather='rss'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>My 2024 Homelab Roundup</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">January 5, 2025
+           
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="https://mashru.dev/tags/homelab">homelab</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://mashru.dev/tags/homeserver">homeserver</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://mashru.dev/tags/self-host">self-host</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://mashru.dev/tags/network">network</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>Hello World! Welcome to my first blog. I hope you had a great 2024, and I&rsquo;m looking forward to an even better 2025!</p>
+<p>This post will go over my homelab setup (the what&rsquo;s and the why&rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.</p>
+<h2 id="network">Network</h2>
+<p>Let&rsquo;s start with my network.</p>
+<h3 id="hardware">Hardware</h3>
+<p>The following hardware runs the network in my home:</p>
+<ol>
+<li>Zyxel MG-105 - 2.5G switch</li>
+<li>TP Link SG-1005P - 1G POE+ switch</li>
+<li>Zyxel NWA50AX WiFi AP</li>
+<li>ISP ONT</li>
+</ol>
+<p>Notice how there&rsquo;s no hardware for the router and firewall? That&rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.</p>
+<p>The basic layout of my network:</p>
+<p><img src="/images/Network_layout.jpg" alt="Network Layout"></p>
+<h3 id="software">Software</h3>
+<ol>
+<li>
+<p>Opnsense: My router/ firewall of choice because it is Free and Open Source (FOSS), has a ton of plugins and get&rsquo;s updated frequently while still being rock stable. Have had 0 downtime since I installed it (except for when I broke it ofc :p)</p>
+</li>
+<li>
+<p>Using the stock firmware on the NWA50AX. Might flash Openwrt once it&rsquo;s warranty ends</p>
+</li>
+<li>
+<p>Pi-hole: DNS server that blocks ads, tracking and malicious domains</p>
+</li>
+</ol>
+<h3 id="vlans">VLANs</h3>
+<p>I have 3 VLANs configured as of now:</p>
+<ol>
+<li>VLAN(A) for trusted devices/ servers. All the phones, pcs, laptops, trusted services in the home are part of this VLAN</li>
+<li>VLAN(B) for internet facing services</li>
+<li>Isolated VLAN(C) for untrusted services and testing purposes</li>
+</ol>
+<p>VLAN A can access servers in VLANs B &amp; C, while VLANs B &amp; C cannot access any devices in other VLANs.</p>
+<h3 id="wifi">WiFi</h3>
+<p>Have 2 SSIDs. Both on 2.4GHz and 5GHz.</p>
+<ol>
+<li>Primary: All (trusted) devices that need access to my home server connect to this</li>
+<li>Secondary: A guest network that all untrusted/ guest devices connect to. Also devices that do not need access to the homeserver connect to this. Has L2 isolation so no devices can talk to each other</li>
+</ol>
+<h2 id="home-server">Home Server</h2>
+<h3 id="hardware-1">Hardware</h3>
+<p>A single computer takes care of all my services.</p>
+<p>Specifications as follows:</p>
+<ul>
+<li>CPU: i3 12100 - got it because I felt it was more than enough for all my needs. Got it over the 12100F because I wanted an iGPU as the build does not have a dGPU.</li>
+<li>RAM: 64GB (32*2) 4800 MT/s DDR5 - initially started off with 8GB single channel, then later upgraded to 16GB dual channel. After hosting a ton of services, I was running short on memory so upgraded to 32GB single channel. Even that was somehow less (thanks to local AI models and partially ZFS caching(learnt that later, it&rsquo;s okay if your RAM is almost full, that&rsquo;s how ZFS works)), upgraded to 64GB dual channel. 4800MT/s because that&rsquo;s the max the CPU&rsquo;s IMC (integrated memory controller) can run memory at</li>
+<li>PSU: MSI MAG A650GF</li>
+<li>SSD: Samsung EVO 970 Plus 1TB</li>
+<li>HDDs: 3 * 2TB Seagate Ironwolf Pro - needed enterprise grade NAS drives because the homeserver runs 24*7. Didn&rsquo;t want to cheap on these because they store all the important data</li>
+</ul>
+<h3 id="software-1">Software</h3>
+<p>The homeserver runs Proxmox (a baremetal hypervisor). All the services run either as containers or virtual machines.</p>
+<p>All the 3 HDDs are part of a ZFS pool formatted as RAIDZ1. This means I can lose up to 1 drive without losing any data. The array was created on proxmox itself.</p>
+<h3 id="services">Services</h3>
+<h4 id="vms">VMs</h4>
+<ol>
+<li>
+<p>Opnsense: I decided to virtualise it because of a few reasons. Them being:</p>
+<ul>
+<li>It is easier to restore the VM snapshot when something goes wrong. Trust me something will go wrong when you are tinkering with a lab setup. This has already saved my time multiple times in the past. If I had decided to run it on bare metal, I would have had to waste time either to reinstall it or reset it and then restore my config or something else along those lines</li>
+<li>My NIC gets virtualised so I don&rsquo;t have to deal with drivers in FreeBSD (Opnsense)</li>
+<li>There is hardly performance penalty these days in virtualising, so why not. There are no downsides to virtualising it, at least I don&rsquo;t see any. If you know of any, please let me know</li>
+</ul>
+<p>The whole of internet technically runs on virtualised hardware so why not this.</p>
+</li>
+<li>
+<p>OpenMediaVault: OpenMediaVault is my NAS software of choice. It&rsquo;s a very simple NAS software unlike TrueNAS or UNRAID but I don&rsquo;t need anything complex either. It&rsquo;s just supposed to enable SMB on the RAID array. This VM also runs a couple of docker containers:</p>
+<ul>
+<li>Nextcloud: An alternative to Google drive, Dropbox etc.</li>
+<li>Collabora office: A Microsoft office/ Google office suite replacement. Integrated into Nextcloud so files are stored there.</li>
+<li>Jellyfin: A media server used to view self owned media</li>
+<li>Postgres: SQL for Nextcloud</li>
+<li>Redis: In memory cache for Nextcloud</li>
+<li>Portainer: Set it up just to play around with it</li>
+</ul>
+</li>
+</ol>
+<h4 id="containers">Containers</h4>
+<ol>
+<li>
+<p>Pi Hole: DNS server that blocks ads, tracking and malicious domains</p>
+</li>
+<li>
+<p>Caddy: A reverse proxy that fetches SSL/ TLS certificates. All services hosted have a public certificate because I don&rsquo;t want to deal with the headache of private certificates</p>
+<p>Pro Tip: Use/ request wildcard certificate for your home/ private network so that even if someone goes on CTL (certificate transparency log), they cannot map your internal network.</p>
+</li>
+<li>
+<p>Homarr: My dashboard. Still WIP. Never found time to complete it</p>
+</li>
+<li>
+<p>AI:</p>
+<ul>
+<li>Ollama: To run AI models. So far have only run LLMs because I do not have a beefy GPU</li>
+<li>Open WebUI: Front end for Ollama. Looks and feels like any other LLM interface. Recently set it up to search with my searx instance. Still playing around RAGs and exploring</li>
+</ul>
+</li>
+<li>
+<p>Firefly III: I am interested in personal finance too and always wanted to track and see where I spend my money. Did not want to put in too much effort of remembering and manually categorising the spends. So set up Firefly III just a couple of months back and it does most of the things I want. Have rules to auto categorise the spends and it also has an option to add recurring transactions. Maybe overkill for what I want, but almost perfect for all my needs</p>
+</li>
+<li>
+<p>SearXNG: A self hosted meta search engine. Recently set it up to use it along with my local AI instance</p>
+</li>
+<li>
+<p>Vaultwarden: A self hosted password manager. It is an unofficial server implementation of Bitwarden password manager</p>
+</li>
+</ol>
+<h5 id="internet-facing-services">Internet facing services</h5>
+<ol>
+<li>
+<p>Nextcloud: This instance of nextcloud is exposed to the internet and used for the following amongst others:</p>
+<ul>
+<li>To share files between friends and family (instead of using Google drive, Dropbox etc.)</li>
+<li>Nextcloud cospend as an alternative to splitwise</li>
+</ul>
+</li>
+<li>
+<p>Authentik: It is a self hosted SSO used for managing users</p>
+</li>
+<li>
+<p>Navidrome: A self hosted music player</p>
+</li>
+<li>
+<p>Nginx Proxy Manager: A reverse proxy for the internet facing services. No particular reason for using it over caddy other than to learn and explore</p>
+</li>
+</ol>
+<h2 id="looking-forward-to-2025">Looking Forward to 2025</h2>
+<p>This is just a snapshot of my homelab setup at the end of 2024. I&rsquo;ve learned a lot and had a blast experimenting with different technologies. In 2025, I plan to continue exploring new ideas, expand my knowledge, and share more of my experiences and learnings through this blog!</p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 Dev Mashru</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

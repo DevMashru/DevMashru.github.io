@@ -36,7 +36,7 @@
     <meta name="twitter:image" content="https://mashru.dev/images/Dev.jpg">
 
     
-    <link rel="canonical" href="https://mashru.dev/categories/" />
+    <link rel="canonical" href="https://mashru.dev/categories/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -48,13 +48,13 @@
     <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
 
     
-    <script src="/js/bundle.min.224c8e70fed292d18d7d9ae1b36797c99144e0be1117e2ea2c428379c8496551.js" integrity="sha256-IkyOcP7SktGNfZrhs2eXyZFE4L4RF&#43;LqLEKDechJZVE="></script>
+    <script src="/js/bundle.min.3eb19cb61dde9e37b9522867f3e024aeb68e26ab8e03252e46e365abcb19acf7.js" integrity="sha256-PrGcth3enje5Uihn8&#43;AkrraOJquOAyUuRuNlq8sZrPc="></script>
 
     
     
 </head>
 <body>
-        <script type="text/javascript">
+        <script>
             
             setThemeByUserPref();
         </script><header class="header">
@@ -63,7 +63,7 @@
         
         <div class="avatar">
             <a href="https://mashru.dev/">
-                <img src='/images/Dev.jpg' alt="avatar" />
+                <img src='/images/Dev.jpg' alt="avatar">
             </a>
         </div>
         
@@ -75,37 +75,37 @@
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="https://mashru.dev/about/"><span data-feather='info'></span> About </a>
+                <a href="https://mashru.dev/about/" aria-label="about" ><span data-feather='info'></span> About </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://mashru.dev/blogs/"><span data-feather='book'></span> Blogs </a>
+                <a href="https://mashru.dev/blogs/" aria-label="blogs" ><span data-feather='book'></span> Blogs </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://mashru.dev/projects/"><span data-feather='code'></span> Projects </a>
+                <a href="https://mashru.dev/projects/" aria-label="projects" ><span data-feather='code'></span> Projects </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://mashru.dev/tags/"><span data-feather='tag'></span> Tags </a>
+                <a href="https://mashru.dev/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://mashru.dev/index.xml"><span data-feather='rss'></span>  </a>
+                <a href="https://mashru.dev/index.xml" aria-label="rss" ><span data-feather='rss'></span>  </a>
             </div>
             
 
             <span class="nav-icons-divider"></span>
             <div class="nav-link dark-theme-toggle">
-                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
-                <a>
-                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
                 </a>
             </div>
 
             <div class="nav-link" id="hamburger-menu-toggle">
-                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
-                <a>
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
                     <span data-feather="menu"></span>
                 </a>
             </div>
@@ -114,29 +114,29 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="https://mashru.dev/about/"><span data-feather='info'></span> About </a>
+                    <a href="https://mashru.dev/about/" ><span data-feather='info'></span> About </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://mashru.dev/blogs/"><span data-feather='book'></span> Blogs </a>
+                    <a href="https://mashru.dev/blogs/" ><span data-feather='book'></span> Blogs </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://mashru.dev/projects/"><span data-feather='code'></span> Projects </a>
+                    <a href="https://mashru.dev/projects/" ><span data-feather='code'></span> Projects </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://mashru.dev/tags/"><span data-feather='tag'></span> Tags </a>
+                    <a href="https://mashru.dev/tags/" ><span data-feather='tag'></span> Tags </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://mashru.dev/index.xml"><span data-feather='rss'></span>  </a>
+                    <a href="https://mashru.dev/index.xml" ><span data-feather='rss'></span>  </a>
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
-                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
-                    <a>
-                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
                     </a>
                 </li>
             </ul>
@@ -149,7 +149,37 @@
 
     <h1 class="list-title">Tags</h1>
     
-        Nothing to see here, yet 😉
+    <ul class="post-tags">
+        
+        <li class="post-tag">
+            <a href="/tags/homelab/">
+                <div class="tag-name">homelab</div>
+                <div class="tag-posts-count">1</div>
+            </a>
+        </li>
+        
+        <li class="post-tag">
+            <a href="/tags/homeserver/">
+                <div class="tag-name">homeserver</div>
+                <div class="tag-posts-count">1</div>
+            </a>
+        </li>
+        
+        <li class="post-tag">
+            <a href="/tags/network/">
+                <div class="tag-name">network</div>
+                <div class="tag-posts-count">1</div>
+            </a>
+        </li>
+        
+        <li class="post-tag">
+            <a href="/tags/self-host/">
+                <div class="tag-name">self-host</div>
+                <div class="tag-posts-count">1</div>
+            </a>
+        </li>
+        
+    </ul>
     
 
 </div>
@@ -159,10 +189,28 @@
     
 
     
-    <span>&copy; 2024 Dev Mashru</span>
+
     
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 Dev Mashru</span>
+    
+
     <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
     </span>
 </footer>
 </body>

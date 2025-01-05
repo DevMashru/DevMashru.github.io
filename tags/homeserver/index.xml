@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Dev Mashru</title>
-    <link>https://mashru.dev/blogs/</link>
-    <description>Recent content in Blogs on Dev Mashru</description>
+    <title>Homeserver on Dev Mashru</title>
+    <link>https://mashru.dev/tags/homeserver/</link>
+    <description>Recent content in Homeserver on Dev Mashru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mashru.dev/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mashru.dev/tags/homeserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 2024 Homelab Roundup</title>
       <link>https://mashru.dev/blogs/my-2024-homelab-roundup/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/blogs/my-2024-homelab-roundup/</guid>
       <description>&lt;p&gt;Hello World! Welcome to my first blog. I hope you had a great 2024, and I&amp;rsquo;m looking forward to an even better 2025!&lt;/p&gt;&#xA;&lt;p&gt;This post will go over my homelab setup (the what&amp;rsquo;s and the why&amp;rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.&lt;/p&gt;&#xA;&lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with my network.&lt;/p&gt;&#xA;&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;&#xA;&lt;p&gt;The following hardware runs the network in my home:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Zyxel MG-105 - 2.5G switch&lt;/li&gt;&#xA;&lt;li&gt;TP Link SG-1005P - 1G POE+ switch&lt;/li&gt;&#xA;&lt;li&gt;Zyxel NWA50AX WiFi AP&lt;/li&gt;&#xA;&lt;li&gt;ISP ONT&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Notice how there&amp;rsquo;s no hardware for the router and firewall? That&amp;rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Opnsense Airtel Guide</title>
-      <link>https://mashru.dev/blogs/opnsense-airtel-guide/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://mashru.dev/blogs/opnsense-airtel-guide/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
