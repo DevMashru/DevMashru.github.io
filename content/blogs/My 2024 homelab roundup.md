@@ -66,7 +66,7 @@ Specifications as follows:
 * RAM: 64GB (32*2) 4800 MT/s DDR5 - initially started off with 8GB single channel, then later upgraded to 16GB dual channel. After hosting a ton of services, I was running short on memory so upgraded to 32GB single channel. Even that was somehow less (thanks to local AI models and partially ZFS caching(learnt that later, it's okay if your RAM is almost full, that's how ZFS works)), upgraded to 64GB dual channel. 4800MT/s because that's the max the CPU's IMC (integrated memory controller) can run memory at
 * PSU: MSI MAG A650GF
 * SSD: Samsung EVO 970 Plus 1TB
-* HDDs: 3 * 2TB Seagate Ironwolf Pro - needed enterprise grade NAS drives because the homeserver runs 24*7. Didn't want to cheap on these because they store all the important data
+* HDDs: 3 * 2TB Seagate Ironwolf Pro - needed enterprise grade NAS drives because the homeserver runs 24*7. Didn't want to cheap out on these because they store all the important data
 
 ### Software
 
