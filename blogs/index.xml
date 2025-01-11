@@ -6,21 +6,21 @@
     <description>Recent content in Blogs on Dev Mashru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mashru.dev/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide: OPNsense Airtel Setup</title>
+      <link>https://mashru.dev/blogs/opnsense-airtel-setup-guide/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/blogs/opnsense-airtel-setup-guide/</guid>
+      <description>&lt;p&gt;This guide will walk you through setting up OPNsense with an Airtel connection with a dynamic IP. If you have a static IP, &lt;a href=&#34;#opnsense-configuration&#34;&gt;step 6&lt;/a&gt; will vary. I do not have a static IP, so I am not sure of the specifics.&lt;/p&gt;&#xA;&lt;p&gt;For the sake of simplicity, I will be referring to the Airtel&amp;rsquo;s all in one router as &amp;ldquo;Airtel&amp;rsquo;s router&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-Requisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;OPNsense Installation:&lt;/strong&gt; This guide will NOT walk through how to install OPNsense. Refer to the official documentation or other guides for installation instructions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;PPPoE credentials&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can follow &lt;a href=&#34;#how-to-get-pppoe-credentials&#34;&gt;these&lt;/a&gt; steps to get your credentials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WAN VLAN ID/ tag&lt;/strong&gt;. Find this information on the WAN page of Airtel&amp;rsquo;s router&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;getting-pppoe-credentials&#34;&gt;Getting PPPoE credentials&lt;/h2&gt;&#xA;&lt;p&gt;Using the Airtel Thanks app:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My 2024 Homelab Roundup</title>
       <link>https://mashru.dev/blogs/my-2024-homelab-roundup/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/blogs/my-2024-homelab-roundup/</guid>
       <description>&lt;p&gt;Hello World! Welcome to my first blog. I hope you had a great 2024, and I&amp;rsquo;m looking forward to an even better 2025!&lt;/p&gt;&#xA;&lt;p&gt;This post will go over my homelab setup (the what&amp;rsquo;s and the why&amp;rsquo;s) at the end of 2024. It will cover all of the hardware, software, networking, services etc.&lt;/p&gt;&#xA;&lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with my network.&lt;/p&gt;&#xA;&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;&#xA;&lt;p&gt;The following hardware runs the network in my home:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Zyxel MG-105 - 2.5G switch&lt;/li&gt;&#xA;&lt;li&gt;TP Link SG-1005P - 1G POE+ switch&lt;/li&gt;&#xA;&lt;li&gt;Zyxel NWA50AX WiFi AP&lt;/li&gt;&#xA;&lt;li&gt;ISP ONT&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Notice how there&amp;rsquo;s no hardware for the router and firewall? That&amp;rsquo;s because Opnsense runs in a virtual machine, which is my router/firewall of choice.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Opnsense Airtel Guide</title>
-      <link>https://mashru.dev/blogs/opnsense-airtel-guide/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://mashru.dev/blogs/opnsense-airtel-guide/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

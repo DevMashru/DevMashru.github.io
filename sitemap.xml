@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mashru.dev/tags/airtel/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mashru.dev/blogs/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mashru.dev/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mashru.dev/tags/guide/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mashru.dev/blogs/opnsense-airtel-setup-guide/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mashru.dev/tags/network/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mashru.dev/tags/opnsense/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mashru.dev/tags/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mashru.dev/tags/homelab/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
@@ -17,16 +35,7 @@
     <loc>https://mashru.dev/blogs/my-2024-homelab-roundup/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mashru.dev/tags/network/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mashru.dev/blogs/opnsense-airtel-guide/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mashru.dev/tags/self-host/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mashru.dev/tags/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mashru.dev/about/</loc>

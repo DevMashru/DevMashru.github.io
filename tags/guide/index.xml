@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opnsense on Dev Mashru</title>
-    <link>https://mashru.dev/tags/opnsense/</link>
-    <description>Recent content in Opnsense on Dev Mashru</description>
+    <title>Guide on Dev Mashru</title>
+    <link>https://mashru.dev/tags/guide/</link>
+    <description>Recent content in Guide on Dev Mashru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mashru.dev/tags/opnsense/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mashru.dev/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide: OPNsense Airtel Setup</title>
       <link>https://mashru.dev/blogs/opnsense-airtel-setup-guide/</link>

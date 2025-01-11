@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Dev Mashru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mashru.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Airtel</title>
+      <link>https://mashru.dev/tags/airtel/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/tags/airtel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://mashru.dev/tags/guide/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>https://mashru.dev/tags/network/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opnsense</title>
+      <link>https://mashru.dev/tags/opnsense/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://mashru.dev/tags/opnsense/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Homelab</title>
       <link>https://mashru.dev/tags/homelab/</link>
@@ -20,13 +48,6 @@
       <link>https://mashru.dev/tags/homeserver/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://mashru.dev/tags/homeserver/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network</title>
-      <link>https://mashru.dev/tags/network/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://mashru.dev/tags/network/</guid>
       <description></description>
     </item>
     <item>
