@@ -32,7 +32,7 @@ The basic layout of my network:
 
 ### Software
 
-1. Opnsense: My router/ firewall of choice because it is Free and Open Source (FOSS), has a ton of plugins and get's updated frequently while still being rock stable. Have had 0 downtime since I installed it (except for when I broke it ofc :p)
+1. Opnsense: My router/ firewall of choice because it is Free and Open Source (FOSS), has a ton of plugins and gets updated frequently while still being rock stable. Have had 0 downtime since I installed it (except for when I broke it ofc :p)
 
 2. Using the stock firmware on the NWA50AX. Might flash Openwrt once it's warranty ends
 
@@ -94,6 +94,8 @@ All the 3 HDDs are part of a ZFS pool formatted as RAIDZ1. This means I can lose
 	* Portainer: Set it up just to play around with it
 
 #### Containers
+
+##### Local services
 
 1. Pi Hole: DNS server that blocks ads, tracking and malicious domains
 
